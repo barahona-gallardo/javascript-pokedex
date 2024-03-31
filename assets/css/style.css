@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1d2124;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: #f8f9fa;
+  scroll-behavior: smooth;
+}
+
+.text-shadow-pokemon {
+  text-shadow: 1px 1px #007bff, 1px -1px #007bff, -1px 1px #007bff,
+    -1px -1px #007bff;
+}
+
+@media (width >= 992px) {
+  .dropdown-resize {
+    width: 400px;
+  }
+}
